@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP" tests="10" failures="0" timestamp="25 Mar 2015 17:38:14 GMT" time="0.01" errors="0">
+  <testcase name="@BeforeTest checkTestSkip" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterTest testCompleted" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey1DefaultValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey2DefaultValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey3DefaultValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey4DefaultValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPDefaultKeyDefaultValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey1SetValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey2SetValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey3SetValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPEncryptionKey4SetValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase_VerifyWEPDefaultKeySetValue" time="0.0" classname="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+    <skipped/>
+  </testcase>
+</testsuite>

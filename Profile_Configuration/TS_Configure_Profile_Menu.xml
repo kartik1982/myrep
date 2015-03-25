@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Configure_Profile_Menu">
+
+<test name="TC_Profile_Add">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add" ></class>  
+    </classes>
+</test>
+
+<test name="TC_Profile_Copy">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy" ></class>  
+    </classes>
+</test>
+
+<test name="TC_Profile_CreateFromArray">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray" ></class>  
+    </classes>
+</test>
+
+<test name="TC_Profile_Default">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default" ></class>  
+    </classes>
+</test>
+
+<test name="TC_Profile_Delete">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete" ></class>  
+    </classes>
+</test>
+
+<test name="TC_Profile_Edit">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit" ></class>  
+    </classes>
+</test>
+<test name="TC_Profile_Export">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export" ></class>  
+    </classes>
+</test>
+<test name="TC_Profile_Select_Columns">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns" ></class>  
+    </classes>
+</test>
+<test name="TC_Profile_SetAOSVersion">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion" ></class>  
+    </classes>
+</test>
+<test name="TC_Profile_SyncArrays">
+    <classes>
+        <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays" ></class>  
+    </classes>
+</test>
+
+</suite>
+

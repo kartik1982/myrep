@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email" tests="5" failures="0" timestamp="25 Mar 2015 15:23:31 GMT" time="182.104" errors="0">
+  <testcase name="testCase_VerifydefaultAdminEmailvalue" time="7.465" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email"/>
+  <testcase name="testCase_VerifyAdminEmailFieldvalidation" time="56.213" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email"/>
+  <testcase name="testCase_VerifyAdminEmailSetValue" time="40.505" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email"/>
+  <testcase name="testCase_VerifyAdminEmailEditValue" time="39.808" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email"/>
+  <testcase name="testCase_VerifyAdminEmailEmptyValue" time="38.103" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email"/>
+</testsuite>

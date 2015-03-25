@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_VLAN">
+<test name="TC_VLAN_AddVLANs">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_AddVLANs" ></class>  
+    </classes>
+</test>
+<test name="TC_VLAN_EditVLANs">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_EditVLANs" ></class>  
+    </classes>
+</test>
+
+<test name="TC_VLAN_DeleteVLANs">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs" ></class>  
+    </classes>
+</test>
+
+</suite>

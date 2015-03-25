@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Profile_Network]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Network_CDP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testCompleted"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_CDP">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

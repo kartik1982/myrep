@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>TestNG:  TC_Services_Location</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_Services_Location</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 25 10:02:35 PDT 2015</td>
+</tr>
+<tr><td>Total time:</td><td>381 seconds (381107 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyFieldValidation()'><b>testCase_verifyLocationKeyFieldValidation</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td><div><pre>java.lang.AssertionError: FAIL- Verification Failed!!!LocationKeyLengthWarning-TC_Services_Location-testCase_verifyLocationKeyFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyFieldValidation(TC_Services_Location.java:709)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace734079098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace734079098'><pre>java.lang.AssertionError: FAIL- Verification Failed!!!LocationKeyLengthWarning-TC_Services_Location-testCase_verifyLocationKeyFieldValidation
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyFieldValidation(TC_Services_Location.java:709)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1125)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:965)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:961)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:890)
+	at org.testng.TestNG.run(TestNG.java:824)
+	at org.testng.TestNG.privateMain(TestNG.java:1128)
+	at org.testng.TestNG.main(TestNG.java:1092)
+</pre></div></td>
+<td>104</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodFieldValidation()'><b>testCase_verifyLocationPeriodFieldValidation</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td><div><pre>java.lang.AssertionError: FAIL- Verification Failed!!!LocationPeriodLimitWarning-TC_Services_Location-testCase_verifyLocationPeriodFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodFieldValidation(TC_Services_Location.java:767)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1811844187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1811844187'><pre>java.lang.AssertionError: FAIL- Verification Failed!!!LocationPeriodLimitWarning-TC_Services_Location-testCase_verifyLocationPeriodFieldValidation
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodFieldValidation(TC_Services_Location.java:767)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1125)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:965)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:961)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:890)
+	at org.testng.TestNG.run(TestNG.java:824)
+	at org.testng.TestNG.privateMain(TestNG.java:1128)
+	at org.testng.TestNG.main(TestNG.java:1092)
+</pre></div></td>
+<td>104</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyDefaultValue()'><b>testCase_verifyLocationKeyDefaultValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>7</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyEditValue()'><b>testCase_verifyLocationKeyEditValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodDefaultValue()'><b>testCase_verifyLocationPeriodDefaultValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodEditValue()'><b>testCase_verifyLocationPeriodEditValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationSupportDisable()'><b>testCase_verifyLocationSupportDisable</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>37</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationSupportEnable()'><b>testCase_verifyLocationSupportEnable</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>38</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationURLDefaultValue()'><b>testCase_verifyLocationURLDefaultValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationURLEditValue()'><b>testCase_verifyLocationURLEditValue</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationURLFieldValidation()'><b>testCase_verifyLocationURLFieldValidation</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>45</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+<tr>
+<td title='com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyNetflowDefaultVersion()'><b>testCase_verifyNetflowDefaultVersion</b><br>Test class: com.xirrus.xms.TS_Array_Services.TC_Services_Location</td>
+<td></td>
+<td>6</td>
+<td>com.xirrus.xms.TS_Array_Services.TC_Services_Location@4f91c387</td></tr>
+</table><p>
+</body>
+</html>

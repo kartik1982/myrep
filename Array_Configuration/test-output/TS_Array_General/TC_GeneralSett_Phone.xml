@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone" tests="5" failures="0" timestamp="25 Mar 2015 15:26:33 GMT" time="182.189" errors="0">
+  <testcase name="testCase_VerifydefaultAdminPhonevalue" time="7.571" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone"/>
+  <testcase name="testCase_VerifyAdminPhoneFieldvalidation" time="55.682" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone"/>
+  <testcase name="testCase_VerifyAdminPhoneSetValue" time="40.081" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone"/>
+  <testcase name="testCase_VerifyAdminPhoneEditValue" time="40.724" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone"/>
+  <testcase name="testCase_VerifyAdminPhoneEmptyValue" time="38.121" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone"/>
+</testsuite>

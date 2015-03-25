@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License" tests="5" failures="0" timestamp="25 Mar 2015 15:29:42 GMT" time="188.621" errors="0">
+  <testcase name="testCase_VerifydefaultLicenseKeyNotEmptyvalue" time="7.357" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License"/>
+  <testcase name="testCase_VerifyLicenseKeyNotAcceptEmptyValue" time="15.371" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License"/>
+  <testcase name="testCase_VerifyLicenseKeynotAcceptvalueMoreOrLessThan23Char" time="26.802" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License"/>
+  <testcase name="testCase_VerifyLicenseKeyInvalidValue" time="41.196" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License"/>
+  <testcase name="testCase_VerifyLicenseKeyUpdatedValue" time="97.874" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License"/>
+</testsuite>

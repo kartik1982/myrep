@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Security]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Security_AirWatch(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+        <methods>
+          <include name="testCase_verifyAirWatchAPIHostnameUpdatedValue"/>
+          <include name="testCase_verifyAirWatchAPIPollPeriodUpdatedValue"/>
+          <include name="testCase_verifyAirWatchAPIHostnameFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIAccessErrorUpdatedValue"/>
+          <include name="testCase_verifyAirWatchRedirectURLDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIUsernameUpdatedValue"/>
+          <include name="testCase_verifyAirWatchRedirectURLUpdatedValue"/>
+          <include name="testCase_verifyAirWatchAPIUsernameFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIPasswordUpdatedValue"/>
+          <include name="testCase_verifyAirWatchAPIKeyDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIHostnameDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIPasswordDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIPasswordFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIPollPeriodDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPITimeoutUpdatedValue"/>
+          <include name="testCase_verifyAirWatchAPIAccessErrorDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPITimeoutDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIKeyUpdatedValue"/>
+          <include name="testCase_verifyAirWatchRedirectURLFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIPollPeriodFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIUsernameDefaultValue"/>
+          <include name="testCase_verifyAirWatchAPIKeyFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPITimeoutFieldValidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP -->
+    </classes>
+  </test> <!-- TC_Security_AirWatch(failed) -->
+  <test name="TC_Security_GlobalSettings_WPA(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCase_VerifyWPATKIPEnabledValue"/>
+          <include name="testCase_VerifyWPAAESEnabledValue"/>
+          <include name="testCase_VerifyWPAGroupRekeyTimeEditValue"/>
+          <include name="testCase_VerifyWPAPresharedKeyEditValue"/>
+          <include name="testCase_VerifyRADIUSServerModeDefaultValue"/>
+          <include name="testCase_VerifyWPAPresharedKeySetValue"/>
+          <include name="testCase_VerifyWPAGroupRekeyEnabledDefaultValue"/>
+          <include name="testCase_VerifyWPAAuthenticationPSKValue"/>
+          <include name="testCase_VerifyWPAGroupRekeyEnabledYESValue"/>
+          <include name="testCase_VerifyWPAAESEnabledDefaultValue"/>
+          <include name="testCase_VerifyWPATKIPEnabledDefaultValue"/>
+          <include name="testCase_VerifyWPATKIPEnabledYESValue"/>
+          <include name="testCase_VerifyRADIUSServerModeInternal"/>
+          <include name="testCase_VerifyWPAPresharedKeyDefaultValue"/>
+          <include name="testCase_VerifyWPAAESEnabledNOValue"/>
+          <include name="testCase_VerifyWPAAuthenticationPSKEditValue"/>
+          <include name="testCase_VerifyWPAAuthenticationEAPValue"/>
+          <include name="testCase_VerifyRADIUSServerModeExternal"/>
+          <include name="testCase_VerifyWPAPSKDefaultValue"/>
+          <include name="testCase_VerifyWPAGroupRekeyTimeSetValue"/>
+          <include name="testCase_VerifyWPAEAPDefaultValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP -->
+    </classes>
+  </test> <!-- TC_Security_GlobalSettings_WPA(failed) -->
+  <test name="TC_Security_GlobalSettings_WEP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="testCase_VerifyWEPEncryptionKey4DefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey2DefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey1SetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey4SetValue"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_VerifyWEPEncryptionKey3DefaultValue"/>
+          <include name="testCase_VerifyWEPDefaultKeySetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey1DefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey2SetValue"/>
+          <include name="testCase_VerifyWEPDefaultKeyDefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey3SetValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP -->
+    </classes>
+  </test> <!-- TC_Security_GlobalSettings_WEP(failed) -->
+</suite> <!-- Failed suite [TS_Array_Security] -->

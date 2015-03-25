@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_Services">
+<test name="TC_Services_Netflow">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow" ></class>  
+    </classes>
+</test>
+<test name="TC_Services_WiFiTag">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag" ></class>  
+    </classes>
+</test>
+<test name="TC_Services_Location">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location" ></class>  
+    </classes>
+</test>
+<test name="TC_Services_DHCPServer">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer" ></class>  
+    </classes>
+</test>
+</suite>
+

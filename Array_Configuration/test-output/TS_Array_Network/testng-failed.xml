@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Network]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Network_DNS(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS">
+        <methods>
+          <include name="testCase_VerifyDNSDomainFieldValidation"/>
+          <include name="checkTestSkip"/>
+          <include name="cleanup"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

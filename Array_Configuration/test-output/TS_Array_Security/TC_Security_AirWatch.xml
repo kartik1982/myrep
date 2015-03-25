@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch" tests="23" failures="4" timestamp="25 Mar 2015 17:35:53 GMT" time="898.889" errors="0">
+  <testcase name="testCase_verifyAirWatchAPIHostnameDefaultValue" time="68.72" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIUsernameDefaultValue" time="4.213" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIPasswordDefaultValue" time="3.186" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIKeyDefaultValue" time="3.185" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPITimeoutDefaultValue" time="4.211" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIPollPeriodDefaultValue" time="3.189" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIAccessErrorDefaultValue" time="3.25" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchRedirectURLDefaultValue" time="3.155" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIHostnameUpdatedValue" time="41.955" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIUsernameUpdatedValue" time="3.157" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIPasswordUpdatedValue" time="3.123" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIKeyUpdatedValue" time="3.171" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPITimeoutUpdatedValue" time="3.169" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIPollPeriodUpdatedValue" time="3.16" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIAccessErrorUpdatedValue" time="3.24" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchRedirectURLUpdatedValue" time="3.17" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIHostnameFieldValidation" time="136.921" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!AirWatchAPIURLHostnameInvalidIPWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIHostnameFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!AirWatchAPIURLHostnameInvalidIPWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIHostnameFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch.testCase_verifyAirWatchAPIHostnameFieldValidation(TC_Security_AirWatch.java:1098)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyAirWatchAPIUsernameFieldValidation" time="136.848" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!AirWatchAPIURLusernameInvalidWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIUsernameFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!AirWatchAPIURLusernameInvalidWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIUsernameFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch.testCase_verifyAirWatchAPIUsernameFieldValidation(TC_Security_AirWatch.java:1208)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyAirWatchAPIPasswordFieldValidation" time="175.974" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!AirWatchAPIPasswdlimitWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIPasswordFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!AirWatchAPIPasswdlimitWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIPasswordFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch.testCase_verifyAirWatchAPIPasswordFieldValidation(TC_Security_AirWatch.java:1349)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyAirWatchAPIKeyFieldValidation" time="138.271" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!AirWatchAPIKeyInvalidWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIKeyFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!AirWatchAPIKeyInvalidWarning-TC_Security_AirWatch-testCase_verifyAirWatchAPIKeyFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch.testCase_verifyAirWatchAPIKeyFieldValidation(TC_Security_AirWatch.java:1468)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyAirWatchAPITimeoutFieldValidation" time="50.374" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchAPIPollPeriodFieldValidation" time="50.271" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+  <testcase name="testCase_verifyAirWatchRedirectURLFieldValidation" time="52.934" classname="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch"/>
+</testsuite>

@@ -1,0 +1,135 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Services]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Services_WiFiTag(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag">
+        <methods>
+          <include name="testCase_verifyWiFiTagEkahauSrvrFieldValidation"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="testCase_verifyWiFiTagChannelValueEdit"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Services_Location(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="testCase_verifyLocationPeriodFieldValidation"/>
+          <include name="checkTestSkip"/>
+          <include name="testCase_verifyLocationKeyFieldValidation"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Services_Netflow(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="testCase_verifyNetflowCollectorPortFieldValidation"/>
+          <include name="testCase_verifyNetflowDefaultVersion"/>
+          <include name="testCase_verifyNetflowCollectorHostFieldValidation"/>
+          <include name="testCase_verifyNetflowDisable"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Services_DHCPServer(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="testCase_verifyDHCPServerDefaultDomainFieldValidation"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_ArrayConfiguration]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_ArrayConfig_Setup(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="testCase_Setup8_ServicesLocationSettings"/>
+          <include name="testCase_Setup11_SecurityGlobalSettingsWPA"/>
+          <include name="testCase_Setup11_IAPsRoamingAssitSettings"/>
+          <include name="testCase_Setup4_NetworkCDPSettings"/>
+          <include name="testCase_Setup10_SecurityAirWatchSettings"/>
+          <include name="testCase_Begning_Setup_NavigateToArrayConfiguration"/>
+          <include name="testCase_End_Setup_ApplyConfigurationToArray"/>
+          <include name="testCase_Setup2_NetworkDNSSettings"/>
+          <include name="testCase_Setup5_VLANSettings"/>
+          <include name="testCase_Setup1_GeneralSettings"/>
+          <include name="testCase_Setup9_ServicesDHCPServerSettings"/>
+          <include name="testCase_Setup7_ServicesWiFiTagSettings"/>
+          <include name="testCase_Setup6_ServicesNetFlowSettings"/>
+          <include name="checkTestSkip"/>
+          <include name="testCase_Setup3_NetworkLLDPSettings"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Setup(failed) -->
+  <test name="TC_ArrayConfig_GeneralSettings(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyArrayConfig_GeneralSettingsParameters"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_GeneralSettings(failed) -->
+  <test name="TC_ArrayConfig_Network_DNS(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="testCase_VerifyArrayConfigNetworkDNSParameters"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Network_DNS(failed) -->
+  <test name="TC_ArrayConfig_Network_LLDP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyArrayConfigNetworkLLDPParamters"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Network_LLDP(failed) -->
+  <test name="TC_ArrayConfig_Network_CDP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyArrayConfigNetworkCDPParamters"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Network_CDP(failed) -->
+  <test name="TC_ArrayConfig_VLANs(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="testCase_VerifyAddSingleVLAN"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_VLANs(failed) -->
+  <test name="TC_ArrayConfig_Services_NetFlow(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="testCase_VerifyArrayConfigServicesNetflowParameters"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Services_NetFlow(failed) -->
+  <test name="TC_ArrayConfig_Services_WiFiTag(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyArrayConfigServicesWiFiTagParameters"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Services_WiFiTag(failed) -->
+  <test name="TC_ArrayConfig_Services_Location(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="testCase_VerifyArrayConfigServicesLocationParameters"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Services_Location(failed) -->
+  <test name="TC_ArrayConfig_Services_DHCPServer(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="testCase_VerifyArrayConfigServicesDHCPServerParameters"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Services_DHCPServer(failed) -->
+  <test name="TC_ArrayConfig_Security_AirWatch(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <methods>
+          <include name="testCase_VerifyArrayConfigSecurityAirWatchParameters"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </classes>
+  </test> <!-- TC_ArrayConfig_Security_AirWatch(failed) -->
+</suite> <!-- Failed suite [TS_ArrayConfiguration] -->

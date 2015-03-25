@@ -1,0 +1,52 @@
+07/03/2015 06:48:31 devpinoyLogger *******Loading Property files- Config, SNMPOID, OR and PATH*******
+07/03/2015 06:48:31 devpinoyLogger Property files loaded successfully
+07/03/2015 06:48:31 devpinoyLogger *******Loading XLSX files- TestSuite, TS_Configure_Profile_Menu, TS_Profile_General, TS_Profile_Network.xlsx*******
+07/03/2015 06:48:33 devpinoyLogger Successfully loaded xlsx files
+07/03/2015 06:48:33 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:33 devpinoyLogger StartTS-TestSuite-TS_Array_General
+07/03/2015 06:48:33 devpinoyLogger Checking Run Mode of TS_Array_General Test Suite
+07/03/2015 06:48:33 devpinoyLogger Skipped Test Suite TS_Array_General was marked as No
+07/03/2015 06:48:33 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:33 devpinoyLogger StartTS-TestSuite-TS_Array_Network
+07/03/2015 06:48:33 devpinoyLogger Checking Run Mode of TS_Array_Network Test Suite
+07/03/2015 06:48:33 devpinoyLogger Skipped Test Suite TS_Array_Network was marked as No
+07/03/2015 06:48:33 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:33 devpinoyLogger StartTS-TestSuite-TS_Array_VLAN
+07/03/2015 06:48:33 devpinoyLogger Checking Run Mode of TS_Array_VLAN Test Suite
+07/03/2015 06:48:33 devpinoyLogger Skipped Test Suite TS_Array_VLAN was marked as No
+07/03/2015 06:48:34 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:34 devpinoyLogger StartTS-TestSuite-TS_Array_Services
+07/03/2015 06:48:34 devpinoyLogger Checking Run Mode of TS_Array_Services Test Suite
+07/03/2015 06:48:34 devpinoyLogger Skipped Test Suite TS_Array_Services was marked as No
+07/03/2015 06:48:34 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:34 devpinoyLogger StartTS-TestSuite-TS_Array_Security
+07/03/2015 06:48:34 devpinoyLogger Checking Run Mode of TS_Array_Security Test Suite
+07/03/2015 06:48:34 devpinoyLogger Skipped Test Suite TS_Array_Security was marked as No
+07/03/2015 06:48:35 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:48:35 devpinoyLogger StartTS-TestSuite-TS_Array_SSIDs
+07/03/2015 06:48:35 devpinoyLogger Checking Run Mode of TS_Array_SSIDs Test Suite
+07/03/2015 06:48:35 devpinoyLogger !!!Test Suite TS_Array_SSIDs is set as Yes, Test cases are going to execute!!!
+07/03/2015 06:48:35 devpinoyLogger StartTS-Setup:-TS_Array_SSIDs Test suite Setup
+07/03/2015 06:48:35 devpinoyLogger StartLib-openBrowser:Open Browser to access website under test.
+07/03/2015 06:48:38 devpinoyLogger ***********Browser under Test is Chrome***********
+07/03/2015 06:48:38 devpinoyLogger EndLib-openBrowser
+07/03/2015 06:48:38 devpinoyLogger StartLib-AccessTestSite: Access Website under test and login
+07/03/2015 06:48:38 devpinoyLogger Access URL - 10.100.85.92:9090
+07/03/2015 06:49:21 devpinoyLogger Admin user name for login- admin
+07/03/2015 06:49:21 devpinoyLogger Error:-org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=40.0.2214.115)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:55:11'
+System info: host: 'ANasser-8470p', ip: '192.168.226.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: b4a0f484960e606bc9cb10bf5561f3d6
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\KARTIK~1.AIY\AppData\Local\Temp\scoped_dir12796_11139}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.115, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+07/03/2015 06:49:21 devpinoyLogger StartLib-captureScreenshot: Capture screen and store to logs
+07/03/2015 06:49:21 devpinoyLogger Screenshot: SetupError-TS_Array_SSIDs.png
+07/03/2015 06:49:21 devpinoyLogger EndLib-captureScreenshot
+07/03/2015 06:49:21 devpinoyLogger *********************Start Of Test Suite*************************************
+07/03/2015 06:49:21 devpinoyLogger StartTS-TestSuite-TS_Array_IAPs
+07/03/2015 06:49:21 devpinoyLogger Checking Run Mode of TS_Array_IAPs Test Suite
+07/03/2015 06:49:21 devpinoyLogger Skipped Test Suite TS_Array_IAPs was marked as No

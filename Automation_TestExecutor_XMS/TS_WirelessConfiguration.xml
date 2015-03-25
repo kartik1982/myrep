@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_WirelessConfiguration">
+<test name="TC_WirelessConfig_Setup">
+    <classes>
+        <class name="com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup" ></class>  
+    </classes>
+</test>
+</suite>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_VLAN]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_VLAN_AddVLANs(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_AddVLANs">
+        <methods>
+          <include name="testCase_VerifyNewVLANDefaultValues"/>
+          <include name="testCase_VerifyAddMultipleVLANs"/>
+          <include name="testCase_VerifyMaxVLANSupportByArray"/>
+          <include name="testCase_VerifyThirdVLANValues"/>
+          <include name="testCase_VerifySecondVLANValues"/>
+          <include name="testCase_VerifyAddSingleVLAN"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_VLAN.TC_VLAN_AddVLANs -->
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs -->
+    </classes>
+  </test> <!-- TC_VLAN_AddVLANs(failed) -->
+  <test name="TC_VLAN_EditVLANs(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs -->
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_EditVLANs">
+        <methods>
+          <include name="testCase_VerifyUpdatedSecondVLANValues"/>
+          <include name="testCase_VerifyEditMultipleVLANs"/>
+          <include name="testCase_VerifyUpdatedFirstVLANValues"/>
+          <include name="testCase_VerifyAddSingleVLAN"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_VLAN.TC_VLAN_EditVLANs -->
+    </classes>
+  </test> <!-- TC_VLAN_EditVLANs(failed) -->
+  <test name="TC_VLAN_DeleteVLANs(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs">
+        <methods>
+          <include name="testCase_VerifyDeleteAllVLANs"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_VerifyDeleteSingleVLAN"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs -->
+    </classes>
+  </test> <!-- TC_VLAN_DeleteVLANs(failed) -->
+</suite> <!-- Failed suite [TS_Array_VLAN] -->

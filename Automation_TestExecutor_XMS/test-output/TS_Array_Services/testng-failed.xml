@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Services]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Services_Netflow(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+        <methods>
+          <include name="testCase_verifyNetflowVersionV6"/>
+          <include name="testCase_verifyNetflowDisable"/>
+          <include name="testCase_verifyNetflowVersionIPFIX"/>
+          <include name="testCase_verifyNetflowVersionV5"/>
+          <include name="testCase_verifyNetflowDefaultCollectorHost"/>
+          <include name="testCase_verifyNetflowCollectorHostFieldValidation"/>
+          <include name="testCase_verifyNetflowCollectorPortEdit"/>
+          <include name="testCase_verifyNetflowCollectorHostEdit"/>
+          <include name="testCase_verifyNetflowDefaultVersion"/>
+          <include name="testCase_verifyNetflowDefaultCollectorPort"/>
+          <include name="testCase_verifyNetflowCollectorPortFieldValidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_Netflow -->
+    </classes>
+  </test> <!-- TC_Services_Netflow(failed) -->
+  <test name="TC_Services_WiFiTag(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag">
+        <methods>
+          <include name="testCase_verifyWiFiTagChannelValueEdit"/>
+          <include name="testCase_verifyWiFiTagUDPPortValueEdit"/>
+          <include name="testCase_verifyWiFiTagDefaultUDPPortValue"/>
+          <include name="testCase_verifyWiFiTagEkahauSrvrEdit"/>
+          <include name="testCase_verifyWiFiTagDefaultState"/>
+          <include name="testCase_verifyWiFiTagSupportDisable"/>
+          <include name="testCase_verifyWiFiTagEkahauSrvrDefaultValue"/>
+          <include name="testCase_verifyWiFiTagEnableState"/>
+          <include name="testCase_verifyWiFiTagUDPPortFieldValidation"/>
+          <include name="testCase_verifyWiFiTagEkahauSrvrFieldValidation"/>
+          <include name="testCase_verifyWiFiTagChannelDefaultValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_WiFiTag -->
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer -->
+    </classes>
+  </test> <!-- TC_Services_WiFiTag(failed) -->
+  <test name="TC_Services_Location(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer -->
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+        <methods>
+          <include name="testCase_verifyNetflowDefaultVersion"/>
+          <include name="testCase_verifyLocationURLFieldValidation"/>
+          <include name="testCase_verifyLocationPeriodDefaultValue"/>
+          <include name="testCase_verifyLocationSupportDisable"/>
+          <include name="testCase_verifyLocationSupportEnable"/>
+          <include name="testCase_verifyLocationPeriodFieldValidation"/>
+          <include name="testCase_verifyLocationKeyDefaultValue"/>
+          <include name="testCase_verifyLocationURLEditValue"/>
+          <include name="testCase_verifyLocationPeriodEditValue"/>
+          <include name="testCase_verifyLocationKeyFieldValidation"/>
+          <include name="testCase_verifyLocationURLDefaultValue"/>
+          <include name="testCase_verifyLocationKeyEditValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_Location -->
+    </classes>
+  </test> <!-- TC_Services_Location(failed) -->
+  <test name="TC_Services_DHCPServer(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer">
+        <methods>
+          <include name="testCase_verifyDHCPServerDefaultDNSServer3FieldValidation"/>
+          <include name="testCase_verifyDHCPServerStartIPRangeFieldValidation"/>
+          <include name="testCase_verifyDHCPServerDefaultLeaseFieldValidation"/>
+          <include name="testCase_verifyDHCPServerDefaultDNSServer2FieldValidation"/>
+          <include name="testCase_verifyDHCPServerEndIPRangeFieldValidation"/>
+          <include name="testCase_verifyDHCPServerDefaultValues"/>
+          <include name="testCase_verifyDHCPServerGatewayFieldValidation"/>
+          <include name="testCase_verifyAddDHCPServer"/>
+          <include name="testCase_verifyDHCPServerDefaultDNSServer1FieldValidation"/>
+          <include name="testCase_verifyDeleteDHCPServer"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_verifyDHCPServerDefaultSubnetMaskFieldValidation"/>
+          <include name="testCase_verifyDHCPServerMaxLeaseFieldValidation"/>
+          <include name="testCase_verifyDHCPServerDefaultDomainFieldValidation"/>
+          <include name="testCase_verifyDHCPServerNameFieldValidation"/>
+          <include name="testCase_verifyEditDHCPServer"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Services.TC_Services_DHCPServer -->
+    </classes>
+  </test> <!-- TC_Services_DHCPServer(failed) -->
+</suite> <!-- Failed suite [TS_Array_Services] -->

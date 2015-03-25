@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_ProfileConfiguration">
+<test name="TC_ProfileConfig_Setup">
+    <classes>
+        <class name="com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup" ></class>  
+    </classes>
+</test>
+
+</suite>
+

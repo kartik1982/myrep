@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_SSIDs">
+<test name="TC_SSIDs_Mgmt_GeneralSettings">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_GeneralSettings" ></class>  
+    </classes>
+</test>
+<test name="TC_SSIDs_Mgmt_Authentication">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_Authentication" ></class>  
+    </classes>
+</test>
+<test name="TC_SSIDs_Mgmt_Limits">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_Limits" ></class>  
+    </classes>
+</test>
+<test name="TC_SSIDs_Mgmt_TrafficShapping">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping" ></class>  
+    </classes>
+</test>
+<test name="TC_SSIDs_Mgmt_CaptivePortal">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_CaptivePortal" ></class>  
+    </classes>
+</test>
+</suite>
+

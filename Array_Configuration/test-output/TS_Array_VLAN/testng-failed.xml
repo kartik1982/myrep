@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_VLAN]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_VLAN_AddVLANs(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_AddVLANs">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyMaxVLANSupportByArray"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_EditVLANs">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_VLAN.TC_VLAN_DeleteVLANs">
+        <methods>
+          <include name="cleanup"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

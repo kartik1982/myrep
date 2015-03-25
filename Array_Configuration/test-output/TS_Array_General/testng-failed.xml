@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_General]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_GeneralSett_HostName(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Location">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testCompleted"/>
+          <include name="cleanup"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName">
+        <methods>
+          <include name="testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname"/>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

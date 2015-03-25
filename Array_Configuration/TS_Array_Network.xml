@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_Network">
+<test name="TC_Network_LLDP">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP" ></class>  
+    </classes>
+</test>
+<test name="TC_Network_CDP">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Network.TC_Network_CDP" ></class>  
+    </classes>
+</test>
+<test name="TC_Network_DNS">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS" ></class>  
+    </classes>
+</test>
+</suite>
+

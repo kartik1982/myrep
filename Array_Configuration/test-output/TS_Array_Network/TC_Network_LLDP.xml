@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP" tests="3" failures="0" timestamp="25 Mar 2015 15:31:37 GMT" time="86.918" errors="0">
+  <testcase name="testCase_verifyDefaultLLDPState" time="7.418" classname="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP"/>
+  <testcase name="testCase_verifyEnableLLDPState" time="39.541" classname="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP"/>
+  <testcase name="testCase_verifyDisableLLDPState" time="39.952" classname="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP"/>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow" tests="11" failures="4" timestamp="25 Mar 2015 16:56:31 GMT" time="692.903" errors="0">
+  <testcase name="testCase_verifyNetflowDefaultVersion" time="39.619" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!NetflowState-TC_Services_Netflow-testCase_verifyNetflowDefaultVersion">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!NetflowState-TC_Services_Netflow-testCase_verifyNetflowDefaultVersion
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Netflow.testCase_verifyNetflowDefaultVersion(TC_Services_Netflow.java:99)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyNetflowDefaultCollectorHost" time="83.491" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowDefaultCollectorPort" time="28.882" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowVersionV5" time="45.31" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowCollectorHostEdit" time="10.016" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowCollectorPortEdit" time="9.453" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowVersionV6" time="41.081" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowVersionIPFIX" time="44.474" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow"/>
+  <testcase name="testCase_verifyNetflowCollectorHostFieldValidation" time="122.305" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!NetflowHostInvalidNameWarning-TC_Services_Netflow-testCase_verifyNetflowCollectorHostFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!NetflowHostInvalidNameWarning-TC_Services_Netflow-testCase_verifyNetflowCollectorHostFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Netflow.testCase_verifyNetflowCollectorHostFieldValidation(TC_Services_Netflow.java:650)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyNetflowCollectorPortFieldValidation" time="108.961" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!NetflowPortEmptyWarning-TC_Services_Netflow-testCase_verifyNetflowCollectorPortFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!NetflowPortEmptyWarning-TC_Services_Netflow-testCase_verifyNetflowCollectorPortFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Netflow.testCase_verifyNetflowCollectorPortFieldValidation(TC_Services_Netflow.java:731)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyNetflowDisable" time="159.292" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Netflow">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!NetflowState-TC_Services_Netflow-testCase_verifyNetflowDisable">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!NetflowState-TC_Services_Netflow-testCase_verifyNetflowDisable
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Netflow.testCase_verifyNetflowDisable(TC_Services_Netflow.java:867)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_General">
+<test name="TC_GeneralSett_HostName">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName" ></class>  
+    </classes>
+</test>
+<test name="TC_GeneralSett_Location">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Location" ></class>  
+    </classes>
+</test>
+<test name="TC_GeneralSett_Contact">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact" ></class>  
+    </classes>
+</test>
+<test name="TC_GeneralSett_Email">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email" ></class>  
+    </classes>
+</test>
+<test name="TC_GeneralSett_Phone">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone" ></class>  
+    </classes>
+</test>
+<test name="TC_GeneralSett_License">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License" ></class>  
+    </classes>
+</test>
+</suite>
+

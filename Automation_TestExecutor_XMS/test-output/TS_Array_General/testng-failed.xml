@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_General]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_GeneralSett_HostName(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName">
+        <methods>
+          <include name="testCase_verifyHostnameNotacceptemptyvalue"/>
+          <include name="testCase_VerifyHostnamesetIPAddressValue"/>
+          <include name="testCase_VerifyHostnameEditValue"/>
+          <include name="testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname"/>
+          <include name="testCase_VerifydefaultHostnamevalueNotEmpty"/>
+          <include name="testCase_VerifyHostnamesetValidNameValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName -->
+    </classes>
+  </test> <!-- TC_GeneralSett_HostName(failed) -->
+  <test name="TC_GeneralSett_Location(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Location">
+        <methods>
+          <include name="testCase_VerifyLocationInfoEditValue"/>
+          <include name="testCase_VerifyLocationInfoSetValue"/>
+          <include name="testCase_VerifyLocationInfoEmptyValue"/>
+          <include name="testCase_VerifydefaultLocationInfovalue"/>
+          <include name="testCase_VerifyLocationInfoFieldvalidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_Location -->
+    </classes>
+  </test> <!-- TC_GeneralSett_Location(failed) -->
+  <test name="TC_GeneralSett_Contact(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact">
+        <methods>
+          <include name="testCase_VerifydefaultAdminContactvalue"/>
+          <include name="testCase_VerifyAdminContactSetValue"/>
+          <include name="testCase_VerifyAdminContactEditValue"/>
+          <include name="testCase_VerifyAdminContactFieldvalidation"/>
+          <include name="testCase_VerifyAdminContactEmptyValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact -->
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+    </classes>
+  </test> <!-- TC_GeneralSett_Contact(failed) -->
+  <test name="TC_GeneralSett_Email(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email">
+        <methods>
+          <include name="testCase_VerifyAdminEmailEmptyValue"/>
+          <include name="testCase_VerifydefaultAdminEmailvalue"/>
+          <include name="testCase_VerifyAdminEmailEditValue"/>
+          <include name="testCase_VerifyAdminEmailSetValue"/>
+          <include name="testCase_VerifyAdminEmailFieldvalidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_Email -->
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+    </classes>
+  </test> <!-- TC_GeneralSett_Email(failed) -->
+  <test name="TC_GeneralSett_Phone(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone">
+        <methods>
+          <include name="testCase_VerifyAdminPhoneSetValue"/>
+          <include name="testCase_VerifyAdminPhoneEmptyValue"/>
+          <include name="testCase_VerifydefaultAdminPhonevalue"/>
+          <include name="testCase_VerifyAdminPhoneEditValue"/>
+          <include name="testCase_VerifyAdminPhoneFieldvalidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_Phone -->
+    </classes>
+  </test> <!-- TC_GeneralSett_Phone(failed) -->
+  <test name="TC_GeneralSett_License(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_License">
+        <methods>
+          <include name="testCase_VerifyLicenseKeyInvalidValue"/>
+          <include name="testCase_VerifyLicenseKeyUpdatedValue"/>
+          <include name="testCase_VerifyLicenseKeynotAcceptvalueMoreOrLessThan23Char"/>
+          <include name="testCase_VerifydefaultLicenseKeyNotEmptyvalue"/>
+          <include name="testCase_VerifyLicenseKeyNotAcceptEmptyValue"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_License -->
+    </classes>
+  </test> <!-- TC_GeneralSett_License(failed) -->
+</suite> <!-- Failed suite [TS_Array_General] -->

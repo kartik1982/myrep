@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_IAPs]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_IAPs_RoamingAssist(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_IAPs.TC_IAPs_RoamingAssist">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="testCase_VerifyRoamingThresholdFieldValidation"/>
+          <include name="testCase_VerifyMinimumDataRateFieldValidation"/>
+          <include name="testCase_VerifyBackoffPeriodFieldValidation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="cleanup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

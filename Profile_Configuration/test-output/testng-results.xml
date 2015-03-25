@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TS_Profile_General" duration-ms="248303" started-at="2015-01-26T19:44:11Z" finished-at="2015-01-26T19:48:19Z">
+    <groups>
+    </groups>
+    <test name="TC_GeneralSett_Contact" duration-ms="97138" started-at="2015-01-26T19:44:11Z" finished-at="2015-01-26T19:45:48Z">
+      <class name="com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2015-01-26T11:44:11Z" finished-at="2015-01-26T11:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifydefaultAdminContactvalue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCase_VerifydefaultAdminContactvalue" duration-ms="21924" started-at="2015-01-26T11:44:11Z" finished-at="2015-01-26T11:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifydefaultAdminContactvalue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminContactSetValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCase_VerifyAdminContactSetValue" duration-ms="25602" started-at="2015-01-26T11:44:33Z" finished-at="2015-01-26T11:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminContactSetValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminContactFieldvalidation()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCase_VerifyAdminContactFieldvalidation" duration-ms="0" started-at="2015-01-26T11:44:33Z" finished-at="2015-01-26T11:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminContactFieldvalidation -->
+        <test-method status="PASS" signature="testCase_VerifyAdminContactEditValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCase_VerifyAdminContactEditValue" duration-ms="25648" started-at="2015-01-26T11:44:58Z" finished-at="2015-01-26T11:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminContactEditValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminContactEmptyValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCase_VerifyAdminContactEmptyValue" duration-ms="23962" started-at="2015-01-26T11:45:24Z" finished-at="2015-01-26T11:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminContactEmptyValue -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact@3b6dbd]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:45:48Z" finished-at="2015-01-26T11:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Contact -->
+    </test> <!-- TC_GeneralSett_Contact -->
+    <test name="TC_GeneralSett_Email" duration-ms="75593" started-at="2015-01-26T19:45:48Z" finished-at="2015-01-26T19:47:04Z">
+      <class name="com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-01-26T11:45:48Z" finished-at="2015-01-26T11:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifydefaultAdminEmailvalue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCase_VerifydefaultAdminEmailvalue" duration-ms="4002" started-at="2015-01-26T11:45:48Z" finished-at="2015-01-26T11:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifydefaultAdminEmailvalue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminEmailFieldvalidation()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCase_VerifyAdminEmailFieldvalidation" duration-ms="0" started-at="2015-01-26T11:45:52Z" finished-at="2015-01-26T11:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminEmailFieldvalidation -->
+        <test-method status="PASS" signature="testCase_VerifyAdminEmailSetValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCase_VerifyAdminEmailSetValue" duration-ms="23820" started-at="2015-01-26T11:45:52Z" finished-at="2015-01-26T11:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminEmailSetValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminEmailEditValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCase_VerifyAdminEmailEditValue" duration-ms="23998" started-at="2015-01-26T11:46:16Z" finished-at="2015-01-26T11:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminEmailEditValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminEmailEmptyValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCase_VerifyAdminEmailEmptyValue" duration-ms="23763" started-at="2015-01-26T11:46:40Z" finished-at="2015-01-26T11:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminEmailEmptyValue -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email@e62f6]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:47:04Z" finished-at="2015-01-26T11:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Email -->
+    </test> <!-- TC_GeneralSett_Email -->
+    <test name="TC_GeneralSett_Phone" duration-ms="75542" started-at="2015-01-26T19:47:04Z" finished-at="2015-01-26T19:48:19Z">
+      <class name="com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="checkSuiteSkip" is-config="true" duration-ms="54319" started-at="2015-01-26T11:43:17Z" finished-at="2015-01-26T11:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:47:04Z" finished-at="2015-01-26T11:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifydefaultAdminPhoneValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCase_VerifydefaultAdminPhoneValue" duration-ms="3974" started-at="2015-01-26T11:47:04Z" finished-at="2015-01-26T11:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifydefaultAdminPhoneValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminPhoneFieldValidation()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCase_VerifyAdminPhoneFieldValidation" duration-ms="10" started-at="2015-01-26T11:47:08Z" finished-at="2015-01-26T11:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminPhoneFieldValidation -->
+        <test-method status="PASS" signature="testCase_VerifyAdminPhoneSetValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCase_VerifyAdminPhoneSetValue" duration-ms="23824" started-at="2015-01-26T11:47:08Z" finished-at="2015-01-26T11:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminPhoneSetValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminPhoneEditValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCase_VerifyAdminPhoneEditValue" duration-ms="23926" started-at="2015-01-26T11:47:31Z" finished-at="2015-01-26T11:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminPhoneEditValue -->
+        <test-method status="PASS" signature="testCase_VerifyAdminPhoneEmptyValue()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCase_VerifyAdminPhoneEmptyValue" duration-ms="23808" started-at="2015-01-26T11:47:55Z" finished-at="2015-01-26T11:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAdminPhoneEmptyValue -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:48:19Z" finished-at="2015-01-26T11:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone@112e9e6]" name="cleanup" is-config="true" duration-ms="1632" started-at="2015-01-26T11:48:19Z" finished-at="2015-01-26T11:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_Profile_General.TC_GeneralSett_Phone -->
+    </test> <!-- TC_GeneralSett_Phone -->
+  </suite> <!-- TS_Profile_General -->
+  <suite name="TS_Configure_Profile_Menu" duration-ms="171" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:17Z">
+    <groups>
+    </groups>
+    <test name="TC_Profile_Add" duration-ms="21" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add@aaf2ef]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add@aaf2ef]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add@aaf2ef]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add -->
+    </test> <!-- TC_Profile_Add -->
+    <test name="TC_Profile_Copy" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy">
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy@1bf3519]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy@1bf3519]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy@1bf3519]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy -->
+    </test> <!-- TC_Profile_Copy -->
+    <test name="TC_Profile_CreateFromArray" duration-ms="10" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray@97e111]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray@97e111]" name="testCase_C1" duration-ms="10" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray@97e111]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray -->
+    </test> <!-- TC_Profile_CreateFromArray -->
+    <test name="TC_Profile_Default" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default">
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default@f25f89]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default@f25f89]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default@f25f89]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default -->
+    </test> <!-- TC_Profile_Default -->
+    <test name="TC_Profile_Delete" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete">
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete@1d4cb4b]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete@1d4cb4b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete@1d4cb4b]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete -->
+    </test> <!-- TC_Profile_Delete -->
+    <test name="TC_Profile_Edit" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit">
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit@1af5350]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit@1af5350]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit@1af5350]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit -->
+    </test> <!-- TC_Profile_Edit -->
+    <test name="TC_Profile_Export" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export@1e66f65]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export@1e66f65]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export@1e66f65]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export -->
+    </test> <!-- TC_Profile_Export -->
+    <test name="TC_Profile_Select_Columns" duration-ms="0" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns">
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns@db06de]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns@db06de]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns@db06de]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns -->
+    </test> <!-- TC_Profile_Select_Columns -->
+    <test name="TC_Profile_SetAOSVersion" duration-ms="10" started-at="2015-01-26T19:43:16Z" finished-at="2015-01-26T19:43:16Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion@29b99c]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion@29b99c]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:16Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion@29b99c]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:16Z" data-provider="getTestData" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion -->
+    </test> <!-- TC_Profile_SetAOSVersion -->
+    <test name="TC_Profile_SyncArrays" duration-ms="0" started-at="2015-01-26T19:43:17Z" finished-at="2015-01-26T19:43:17Z">
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays@8455dd]" name="checkSuiteSkip" is-config="true" duration-ms="840" started-at="2015-01-26T11:43:15Z" finished-at="2015-01-26T11:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays@8455dd]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:17Z" finished-at="2015-01-26T11:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays@8455dd]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:43:17Z" data-provider="getTestData" finished-at="2015-01-26T11:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays@8455dd]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:17Z" finished-at="2015-01-26T11:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays@8455dd]" name="cleanup" is-config="true" duration-ms="0" started-at="2015-01-26T11:43:17Z" finished-at="2015-01-26T11:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays -->
+    </test> <!-- TC_Profile_SyncArrays -->
+  </suite> <!-- TS_Configure_Profile_Menu -->
+  <suite name="TS_Profile_Network" duration-ms="97427" started-at="2015-01-26T19:49:32Z" finished-at="2015-01-26T19:51:09Z">
+    <groups>
+    </groups>
+    <test name="TC_Network_CDP" duration-ms="15697" started-at="2015-01-26T19:49:32Z" finished-at="2015-01-26T19:49:47Z">
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_CDP">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_CDP@12cc66f]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:49:32Z" finished-at="2015-01-26T11:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_CDP@12cc66f]" name="testCase_C1" duration-ms="15696" started-at="2015-01-26T11:49:32Z" data-provider="getTestData" finished-at="2015-01-26T11:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_CDP@12cc66f]" name="testCompleted" is-config="true" duration-ms="1" started-at="2015-01-26T11:49:47Z" finished-at="2015-01-26T11:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Profile_Network.TC_Network_CDP -->
+    </test> <!-- TC_Network_CDP -->
+    <test name="TC_Network_DNS" duration-ms="16211" started-at="2015-01-26T19:49:47Z" finished-at="2015-01-26T19:50:04Z">
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_DNS">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_DNS@1036b16]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2015-01-26T11:49:47Z" finished-at="2015-01-26T11:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_DNS@1036b16]" name="testCase_C1" duration-ms="16209" started-at="2015-01-26T11:49:47Z" data-provider="getTestData" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_DNS@1036b16]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:50:04Z" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_Profile_Network.TC_Network_DNS -->
+    </test> <!-- TC_Network_DNS -->
+    <test name="TC_Network_Interfaces" duration-ms="0" started-at="2015-01-26T19:50:04Z" finished-at="2015-01-26T19:50:04Z">
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces">
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces@9f2cff]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:50:04Z" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces@9f2cff]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:50:04Z" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces@9f2cff]" name="testCase_C1" duration-ms="0" started-at="2015-01-26T11:50:04Z" data-provider="getTestData" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+      </class> <!-- com.xirrus.xms.TS_Profile_Network.TC_Network_Interfaces -->
+    </test> <!-- TC_Network_Interfaces -->
+    <test name="TC_Network_LLDP" duration-ms="65480" started-at="2015-01-26T19:50:04Z" finished-at="2015-01-26T19:51:09Z">
+      <class name="com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP@c821ef]" name="checkSuiteSkip" is-config="true" duration-ms="70952" started-at="2015-01-26T11:48:21Z" finished-at="2015-01-26T11:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="testCase_C1()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP@c821ef]" name="testCase_C1" duration-ms="65480" started-at="2015-01-26T11:50:04Z" data-provider="getTestData" finished-at="2015-01-26T11:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_C1 -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP@c821ef]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-01-26T11:50:04Z" finished-at="2015-01-26T11:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP@c821ef]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-01-26T11:51:09Z" finished-at="2015-01-26T11:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP@c821ef]" name="cleanup" is-config="true" duration-ms="1491" started-at="2015-01-26T11:51:09Z" finished-at="2015-01-26T11:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_Profile_Network.TC_Network_LLDP -->
+    </test> <!-- TC_Network_LLDP -->
+  </suite> <!-- TS_Profile_Network -->
+  <suite name="My suite" duration-ms="0" started-at="2015-01-26T19:51:11Z" finished-at="2015-01-26T19:51:11Z">
+    <groups>
+    </groups>
+  </suite> <!-- My suite -->
+</testng-results>

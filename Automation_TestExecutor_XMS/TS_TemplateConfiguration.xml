@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_TemplateConfiguration">
+<test name="TC_TempConfig_Setup">
+    <classes>
+        <class name="com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup" ></class>  
+    </classes>
+</test>
+</suite>
+

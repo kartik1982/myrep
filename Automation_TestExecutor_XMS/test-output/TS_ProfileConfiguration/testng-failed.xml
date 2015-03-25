@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_ProfileConfiguration]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_ProfileConfig_Setup(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_verifyDHCPServerDefaultValues"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup -->
+    </classes>
+  </test> <!-- TC_ProfileConfig_Setup(failed) -->
+</suite> <!-- Failed suite [TS_ProfileConfiguration] -->

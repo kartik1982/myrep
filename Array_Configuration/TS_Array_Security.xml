@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_Security">
+<test name="TC_Security_AirWatch">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch" ></class>  
+    </classes>
+</test>
+<test name="TC_Security_GlobalSettings_WPA">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA" ></class>  
+    </classes>
+</test>
+<test name="TC_Security_GlobalSettings_WEP">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP" ></class>  
+    </classes>
+</test>
+</suite>
+

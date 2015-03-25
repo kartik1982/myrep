@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS" tests="12" failures="1" timestamp="25 Mar 2015 15:41:51 GMT" time="381.526" errors="0">
+  <testcase name="testCase_VerifyDNSHostnameDefaultValue" time="7.798" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyUseDNSSettingsAssignedbyDHCPDefaultValue" time="2.906" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyUseDNSSettingsAssignedByDHCPDisable" time="41.088" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSDomainSetValue" time="2.952" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSServer1SetValue" time="2.929" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSServer2SetValue" time="2.968" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSServer3SetValue" time="2.925" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSDomainFieldValidation" time="136.474" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!DNSDomainNameInvalid-TC_Network_DNS-testCase_VerifyDNSDomainFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!DNSDomainNameInvalid-TC_Network_DNS-testCase_VerifyDNSDomainFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Network.TC_Network_DNS.testCase_VerifyDNSDomainFieldValidation(TC_Network_DNS.java:562)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_VerifyDNSServer1FieldValidation" time="46.887" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSServer2FieldValidation" time="47.322" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyDNSServer3FieldValidation" time="47.609" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+  <testcase name="testCase_VerifyUseDNSsettingsAssignedByDHCPEnable" time="39.651" classname="com.xirrus.xms.TS_Array_Network.TC_Network_DNS"/>
+</testsuite>

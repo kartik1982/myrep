@@ -1,0 +1,90 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Security]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Security_GlobalSettings_WEP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="testCase_VerifyWEPEncryptionKey1SetValue"/>
+          <include name="checkTestSkip"/>
+          <include name="testCase_VerifyWEPEncryptionKey4DefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey1DefaultValue"/>
+          <include name="cleanup"/>
+          <include name="testCase_VerifyWEPDefaultKeyDefaultValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey3SetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey3DefaultValue"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_VerifyWEPDefaultKeySetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey4SetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey2SetValue"/>
+          <include name="testCase_VerifyWEPEncryptionKey2DefaultValue"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Security_GlobalSettings_WPA(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="cleanup"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCase_VerifyWPAGroupRekeyTimeSetValue"/>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Security_AirWatch(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WEP">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="cleanup"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_AirWatch">
+        <methods>
+          <include name="testCase_verifyAirWatchAPIUsernameFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIKeyFieldValidation"/>
+          <include name="checkTestSkip"/>
+          <include name="testCompleted"/>
+          <include name="testCase_verifyAirWatchAPIPasswordFieldValidation"/>
+          <include name="testCase_verifyAirWatchAPIHostnameFieldValidation"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Array_Security.TC_Security_GlobalSettings_WPA">
+        <methods>
+          <include name="testCompleted"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

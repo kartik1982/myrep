@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_WirelessConfiguration]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_WirelessConfig_Setup(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup">
+        <methods>
+          <include name="testCase_VerifyDNSHostnameDefaultValue"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup -->
+    </classes>
+  </test> <!-- TC_WirelessConfig_Setup(failed) -->
+</suite> <!-- Failed suite [TS_WirelessConfiguration] -->

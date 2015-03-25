@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TS_ProfileConfiguration" duration-ms="10114" started-at="2015-03-17T20:43:57Z" finished-at="2015-03-17T20:44:07Z">
+    <groups>
+    </groups>
+    <test name="TC_ProfileConfig_Setup" duration-ms="10114" started-at="2015-03-17T20:43:57Z" finished-at="2015-03-17T20:44:07Z">
+      <class name="com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup@11970e2]" name="checkSuiteSkip" is-config="true" duration-ms="17772" started-at="2015-03-17T13:43:40Z" finished-at="2015-03-17T13:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup@11970e2]" name="checkTestSkip" is-config="true" duration-ms="6" started-at="2015-03-17T13:43:57Z" finished-at="2015-03-17T13:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_verifyDHCPServerDefaultValues()[pri:0, instance:com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup@11970e2]" name="testCase_verifyDHCPServerDefaultValues" duration-ms="1" started-at="2015-03-17T13:43:57Z" finished-at="2015-03-17T13:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_verifyDHCPServerDefaultValues -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup@11970e2]" name="testCompleted" is-config="true" duration-ms="10106" started-at="2015-03-17T13:43:57Z" finished-at="2015-03-17T13:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup@11970e2]" name="cleanup" is-config="true" duration-ms="1381" started-at="2015-03-17T13:44:07Z" finished-at="2015-03-17T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_ProfileConfiguration.TC_ProfileConfig_Setup -->
+    </test> <!-- TC_ProfileConfig_Setup -->
+  </suite> <!-- TS_ProfileConfiguration -->
+  <suite name="TS_ArrayConfiguration" duration-ms="905708" started-at="2015-03-17T20:28:32Z" finished-at="2015-03-17T20:43:38Z">
+    <groups>
+    </groups>
+    <test name="TC_ArrayConfig_Setup" duration-ms="158722" started-at="2015-03-17T20:28:32Z" finished-at="2015-03-17T20:31:11Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="checkTestSkip" is-config="true" duration-ms="12" started-at="2015-03-17T13:28:32Z" finished-at="2015-03-17T13:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_Begning_Setup_NavigateToArrayConfiguration()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Begning_Setup_NavigateToArrayConfiguration" duration-ms="3335" started-at="2015-03-17T13:28:32Z" finished-at="2015-03-17T13:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Begning_Setup_NavigateToArrayConfiguration -->
+        <test-method status="PASS" signature="testCase_Setup1_GeneralSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup1_GeneralSettings" duration-ms="2438" started-at="2015-03-17T13:28:36Z" finished-at="2015-03-17T13:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup1_GeneralSettings -->
+        <test-method status="PASS" signature="testCase_Setup2_NetworkDNSSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup2_NetworkDNSSettings" duration-ms="2451" started-at="2015-03-17T13:28:38Z" finished-at="2015-03-17T13:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup2_NetworkDNSSettings -->
+        <test-method status="PASS" signature="testCase_Setup3_NetworkLLDPSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup3_NetworkLLDPSettings" duration-ms="1307" started-at="2015-03-17T13:28:40Z" finished-at="2015-03-17T13:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup3_NetworkLLDPSettings -->
+        <test-method status="PASS" signature="testCase_Setup4_NetworkCDPSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup4_NetworkCDPSettings" duration-ms="1843" started-at="2015-03-17T13:28:42Z" finished-at="2015-03-17T13:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup4_NetworkCDPSettings -->
+        <test-method status="PASS" signature="testCase_Setup5_VLANSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup5_VLANSettings" duration-ms="50174" started-at="2015-03-17T13:28:44Z" finished-at="2015-03-17T13:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup5_VLANSettings -->
+        <test-method status="PASS" signature="testCase_Setup6_ServicesNetFlowSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup6_ServicesNetFlowSettings" duration-ms="1854" started-at="2015-03-17T13:29:34Z" finished-at="2015-03-17T13:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup6_ServicesNetFlowSettings -->
+        <test-method status="PASS" signature="testCase_Setup7_ServicesWiFiTagSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup7_ServicesWiFiTagSettings" duration-ms="2400" started-at="2015-03-17T13:29:36Z" finished-at="2015-03-17T13:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup7_ServicesWiFiTagSettings -->
+        <test-method status="PASS" signature="testCase_Setup8_ServicesLocationSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup8_ServicesLocationSettings" duration-ms="2055" started-at="2015-03-17T13:29:38Z" finished-at="2015-03-17T13:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup8_ServicesLocationSettings -->
+        <test-method status="PASS" signature="testCase_Setup9_ServicesDHCPServerSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup9_ServicesDHCPServerSettings" duration-ms="32656" started-at="2015-03-17T13:29:40Z" finished-at="2015-03-17T13:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup9_ServicesDHCPServerSettings -->
+        <test-method status="PASS" signature="testCase_Setup10_SecurityAirWatchSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup10_SecurityAirWatchSettings" duration-ms="3887" started-at="2015-03-17T13:30:13Z" finished-at="2015-03-17T13:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup10_SecurityAirWatchSettings -->
+        <test-method status="PASS" signature="testCase_Setup11_SecurityGlobalSettingsWPA()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup11_SecurityGlobalSettingsWPA" duration-ms="2441" started-at="2015-03-17T13:30:17Z" finished-at="2015-03-17T13:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup11_SecurityGlobalSettingsWPA -->
+        <test-method status="PASS" signature="testCase_Setup11_IAPsRoamingAssitSettings()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_Setup11_IAPsRoamingAssitSettings" duration-ms="2701" started-at="2015-03-17T13:30:19Z" finished-at="2015-03-17T13:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Setup11_IAPsRoamingAssitSettings -->
+        <test-method status="PASS" signature="testCase_End_Setup_ApplyConfigurationToArray()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCase_End_Setup_ApplyConfigurationToArray" duration-ms="49136" started-at="2015-03-17T13:30:22Z" finished-at="2015-03-17T13:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_End_Setup_ApplyConfigurationToArray -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup@4301c9]" name="testCompleted" is-config="true" duration-ms="2" started-at="2015-03-17T13:31:11Z" finished-at="2015-03-17T13:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup -->
+    </test> <!-- TC_ArrayConfig_Setup -->
+    <test name="TC_ArrayConfig_GeneralSettings" duration-ms="17057" started-at="2015-03-17T20:31:11Z" finished-at="2015-03-17T20:31:28Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings@130f268]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-03-17T13:31:11Z" finished-at="2015-03-17T13:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfig_GeneralSettingsParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings@130f268]" name="testCase_VerifyArrayConfig_GeneralSettingsParameters" duration-ms="17047" started-at="2015-03-17T13:31:11Z" finished-at="2015-03-17T13:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfig_GeneralSettingsParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings@130f268]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:31:28Z" finished-at="2015-03-17T13:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings -->
+    </test> <!-- TC_ArrayConfig_GeneralSettings -->
+    <test name="TC_ArrayConfig_Network_DNS" duration-ms="22060" started-at="2015-03-17T20:31:28Z" finished-at="2015-03-17T20:31:50Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS@1b24628]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-03-17T13:31:28Z" finished-at="2015-03-17T13:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigNetworkDNSParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS@1b24628]" name="testCase_VerifyArrayConfigNetworkDNSParameters" duration-ms="22050" started-at="2015-03-17T13:31:28Z" finished-at="2015-03-17T13:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigNetworkDNSParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS@1b24628]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:31:50Z" finished-at="2015-03-17T13:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS -->
+    </test> <!-- TC_ArrayConfig_Network_DNS -->
+    <test name="TC_ArrayConfig_Network_LLDP" duration-ms="7759" started-at="2015-03-17T20:31:50Z" finished-at="2015-03-17T20:31:58Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP@182237d]" name="checkTestSkip" is-config="true" duration-ms="20" started-at="2015-03-17T13:31:50Z" finished-at="2015-03-17T13:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigNetworkLLDPParamters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP@182237d]" name="testCase_VerifyArrayConfigNetworkLLDPParamters" duration-ms="7739" started-at="2015-03-17T13:31:50Z" finished-at="2015-03-17T13:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigNetworkLLDPParamters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP@182237d]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:31:58Z" finished-at="2015-03-17T13:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP -->
+    </test> <!-- TC_ArrayConfig_Network_LLDP -->
+    <test name="TC_ArrayConfig_Network_CDP" duration-ms="13057" started-at="2015-03-17T20:31:58Z" finished-at="2015-03-17T20:32:11Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP@cfd5ee]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-03-17T13:31:58Z" finished-at="2015-03-17T13:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigNetworkCDPParamters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP@cfd5ee]" name="testCase_VerifyArrayConfigNetworkCDPParamters" duration-ms="13057" started-at="2015-03-17T13:31:58Z" finished-at="2015-03-17T13:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigNetworkCDPParamters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP@cfd5ee]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:32:11Z" finished-at="2015-03-17T13:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP -->
+    </test> <!-- TC_ArrayConfig_Network_CDP -->
+    <test name="TC_ArrayConfig_VLANs" duration-ms="454472" started-at="2015-03-17T20:32:11Z" finished-at="2015-03-17T20:39:45Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs">
+        <test-method status="PASS" signature="testCase_VerifyAddSingleVLAN()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs@b3f93c]" name="testCase_VerifyAddSingleVLAN" duration-ms="454460" started-at="2015-03-17T13:32:11Z" finished-at="2015-03-17T13:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyAddSingleVLAN -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs@b3f93c]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-03-17T13:32:11Z" finished-at="2015-03-17T13:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs@b3f93c]" name="testCompleted" is-config="true" duration-ms="2" started-at="2015-03-17T13:39:45Z" finished-at="2015-03-17T13:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs -->
+    </test> <!-- TC_ArrayConfig_VLANs -->
+    <test name="TC_ArrayConfig_Services_NetFlow" duration-ms="13645" started-at="2015-03-17T20:39:46Z" finished-at="2015-03-17T20:39:59Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow@1b2c86e]" name="checkTestSkip" is-config="true" duration-ms="25" started-at="2015-03-17T13:39:46Z" finished-at="2015-03-17T13:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigServicesNetflowParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow@1b2c86e]" name="testCase_VerifyArrayConfigServicesNetflowParameters" duration-ms="13616" started-at="2015-03-17T13:39:46Z" finished-at="2015-03-17T13:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigServicesNetflowParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow@1b2c86e]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:39:59Z" finished-at="2015-03-17T13:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow -->
+    </test> <!-- TC_ArrayConfig_Services_NetFlow -->
+    <test name="TC_ArrayConfig_Services_WiFiTag" duration-ms="17766" started-at="2015-03-17T20:39:59Z" finished-at="2015-03-17T20:40:17Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag@1973271]" name="checkTestSkip" is-config="true" duration-ms="20" started-at="2015-03-17T13:39:59Z" finished-at="2015-03-17T13:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigServicesWiFiTagParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag@1973271]" name="testCase_VerifyArrayConfigServicesWiFiTagParameters" duration-ms="17746" started-at="2015-03-17T13:39:59Z" finished-at="2015-03-17T13:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigServicesWiFiTagParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag@1973271]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:40:17Z" finished-at="2015-03-17T13:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag -->
+    </test> <!-- TC_ArrayConfig_Services_WiFiTag -->
+    <test name="TC_ArrayConfig_Services_Location" duration-ms="17211" started-at="2015-03-17T20:40:17Z" finished-at="2015-03-17T20:40:34Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location">
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigServicesLocationParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location@1e2d159]" name="testCase_VerifyArrayConfigServicesLocationParameters" duration-ms="17211" started-at="2015-03-17T13:40:17Z" finished-at="2015-03-17T13:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigServicesLocationParameters -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location@1e2d159]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-03-17T13:40:17Z" finished-at="2015-03-17T13:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location@1e2d159]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:40:34Z" finished-at="2015-03-17T13:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location -->
+    </test> <!-- TC_ArrayConfig_Services_Location -->
+    <test name="TC_ArrayConfig_Services_DHCPServer" duration-ms="110036" started-at="2015-03-17T20:40:34Z" finished-at="2015-03-17T20:42:24Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer@c13b15]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-03-17T13:40:34Z" finished-at="2015-03-17T13:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigServicesDHCPServerParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer@c13b15]" name="testCase_VerifyArrayConfigServicesDHCPServerParameters" duration-ms="110023" started-at="2015-03-17T13:40:34Z" finished-at="2015-03-17T13:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigServicesDHCPServerParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer@c13b15]" name="testCompleted" is-config="true" duration-ms="1" started-at="2015-03-17T13:42:24Z" finished-at="2015-03-17T13:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer -->
+    </test> <!-- TC_ArrayConfig_Services_DHCPServer -->
+    <test name="TC_ArrayConfig_Security_AirWatch" duration-ms="30194" started-at="2015-03-17T20:42:24Z" finished-at="2015-03-17T20:42:54Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch@1e26e12]" name="checkTestSkip" is-config="true" duration-ms="4" started-at="2015-03-17T13:42:24Z" finished-at="2015-03-17T13:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigSecurityAirWatchParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch@1e26e12]" name="testCase_VerifyArrayConfigSecurityAirWatchParameters" duration-ms="30189" started-at="2015-03-17T13:42:24Z" finished-at="2015-03-17T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigSecurityAirWatchParameters -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch@1e26e12]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:42:54Z" finished-at="2015-03-17T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch -->
+    </test> <!-- TC_ArrayConfig_Security_AirWatch -->
+    <test name="TC_ArrayConfig_Security_GlobalSettings_WPA" duration-ms="23721" started-at="2015-03-17T20:42:54Z" finished-at="2015-03-17T20:43:18Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA">
+        <test-method status="PASS" signature="testCase_VerifyArrayConfigSecurityGlobalSettingsWPAParameters()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA@1cc48dd]" name="testCase_VerifyArrayConfigSecurityGlobalSettingsWPAParameters" duration-ms="23715" started-at="2015-03-17T13:42:54Z" finished-at="2015-03-17T13:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyArrayConfigSecurityGlobalSettingsWPAParameters -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA@1cc48dd]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-03-17T13:42:54Z" finished-at="2015-03-17T13:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA@1cc48dd]" name="testCompleted" is-config="true" duration-ms="1" started-at="2015-03-17T13:43:18Z" finished-at="2015-03-17T13:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA -->
+    </test> <!-- TC_ArrayConfig_Security_GlobalSettings_WPA -->
+    <test name="TC_ArrayConfig_IAPs_RoamingAssist" duration-ms="19681" started-at="2015-03-17T20:43:18Z" finished-at="2015-03-17T20:43:38Z">
+      <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist@1d4433f]" name="checkSuiteSkip" is-config="true" duration-ms="13890" started-at="2015-03-17T13:28:18Z" finished-at="2015-03-17T13:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist@1d4433f]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-03-17T13:43:18Z" finished-at="2015-03-17T13:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_VerifyNewVLANDefaultValues()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist@1d4433f]" name="testCase_VerifyNewVLANDefaultValues" duration-ms="19671" started-at="2015-03-17T13:43:18Z" finished-at="2015-03-17T13:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyNewVLANDefaultValues -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist@1d4433f]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:43:38Z" finished-at="2015-03-17T13:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist@1d4433f]" name="cleanup" is-config="true" duration-ms="1567" started-at="2015-03-17T13:43:38Z" finished-at="2015-03-17T13:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist -->
+    </test> <!-- TC_ArrayConfig_IAPs_RoamingAssist -->
+  </suite> <!-- TS_ArrayConfiguration -->
+  <suite name="TS_WirelessConfiguration" duration-ms="11" started-at="2015-03-17T20:44:19Z" finished-at="2015-03-17T20:44:19Z">
+    <groups>
+    </groups>
+    <test name="TC_WirelessConfig_Setup" duration-ms="11" started-at="2015-03-17T20:44:19Z" finished-at="2015-03-17T20:44:19Z">
+      <class name="com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup@1dfacc4]" name="checkSuiteSkip" is-config="true" duration-ms="10581" started-at="2015-03-17T13:44:09Z" finished-at="2015-03-17T13:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup@1dfacc4]" name="checkTestSkip" is-config="true" duration-ms="10" started-at="2015-03-17T13:44:19Z" finished-at="2015-03-17T13:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup@1dfacc4]" name="testCompleted" is-config="true" duration-ms="1" started-at="2015-03-17T13:44:19Z" finished-at="2015-03-17T13:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="testCase_VerifyDNSHostnameDefaultValue()[pri:0, instance:com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup@1dfacc4]" name="testCase_VerifyDNSHostnameDefaultValue" duration-ms="0" started-at="2015-03-17T13:44:19Z" finished-at="2015-03-17T13:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_VerifyDNSHostnameDefaultValue -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup@1dfacc4]" name="cleanup" is-config="true" duration-ms="1383" started-at="2015-03-17T13:44:19Z" finished-at="2015-03-17T13:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_WirelessConfiguration.TC_WirelessConfig_Setup -->
+    </test> <!-- TC_WirelessConfig_Setup -->
+  </suite> <!-- TS_WirelessConfiguration -->
+  <suite name="My suite" duration-ms="0" started-at="2015-03-17T20:44:33Z" finished-at="2015-03-17T20:44:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- My suite -->
+  <suite name="TS_TemplateConfiguration" duration-ms="6" started-at="2015-03-17T20:44:31Z" finished-at="2015-03-17T20:44:31Z">
+    <groups>
+    </groups>
+    <test name="TC_TempConfig_Setup" duration-ms="6" started-at="2015-03-17T20:44:31Z" finished-at="2015-03-17T20:44:31Z">
+      <class name="com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup@16050b0]" name="checkSuiteSkip" is-config="true" duration-ms="10703" started-at="2015-03-17T13:44:21Z" finished-at="2015-03-17T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup@16050b0]" name="checkTestSkip" is-config="true" duration-ms="5" started-at="2015-03-17T13:44:31Z" finished-at="2015-03-17T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testCase_verifyAirWatchAPIHostnameDefaultValue()[pri:0, instance:com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup@16050b0]" name="testCase_verifyAirWatchAPIHostnameDefaultValue" duration-ms="1" started-at="2015-03-17T13:44:31Z" finished-at="2015-03-17T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_verifyAirWatchAPIHostnameDefaultValue -->
+        <test-method status="PASS" signature="testCompleted()[pri:0, instance:com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup@16050b0]" name="testCompleted" is-config="true" duration-ms="0" started-at="2015-03-17T13:44:31Z" finished-at="2015-03-17T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleted -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup@16050b0]" name="cleanup" is-config="true" duration-ms="1352" started-at="2015-03-17T13:44:32Z" finished-at="2015-03-17T13:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup -->
+    </test> <!-- TC_TempConfig_Setup -->
+  </suite> <!-- TS_TemplateConfiguration -->
+</testng-results>

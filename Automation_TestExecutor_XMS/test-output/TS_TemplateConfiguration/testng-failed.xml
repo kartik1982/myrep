@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_TemplateConfiguration]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_TempConfig_Setup(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_verifyAirWatchAPIHostnameDefaultValue"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_TemplateConfiguration.TC_TempConfig_Setup -->
+    </classes>
+  </test> <!-- TC_TempConfig_Setup(failed) -->
+</suite> <!-- Failed suite [TS_TemplateConfiguration] -->

@@ -1,0 +1,15 @@
+<suite name="My suite">
+<listeners> <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/> </listeners>
+  <suite-files>
+   <suite-file path="./TS_Array_General.xml" />
+   <suite-file path="./TS_Array_Network.xml" />
+   <suite-file path="./TS_Array_VLAN.xml" />
+   <suite-file path="./TS_Array_Services.xml" />
+   <suite-file path="./TS_Array_Security.xml" />
+   <suite-file path="./TS_Array_SSIDs.xml" />
+   <suite-file path="./TS_Array_Groups.xml" />
+   <suite-file path="./TS_Array_IAPs.xml" />
+   <suite-file path="./TS_Array_Filters.xml" />
+   <suite-file path="./TS_Array_Tunnels.xml" />
+  </suite-files>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_Services.TC_Services_Location" tests="12" failures="2" timestamp="25 Mar 2015 17:08:56 GMT" time="381.107" errors="0">
+  <testcase name="testCase_verifyNetflowDefaultVersion" time="6.821" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationURLDefaultValue" time="6.971" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationKeyDefaultValue" time="7.111" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationPeriodDefaultValue" time="6.99" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationSupportEnable" time="38.96" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationURLEditValue" time="6.858" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationKeyEditValue" time="6.982" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationPeriodEditValue" time="6.865" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationURLFieldValidation" time="45.756" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+  <testcase name="testCase_verifyLocationKeyFieldValidation" time="104.911" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!LocationKeyLengthWarning-TC_Services_Location-testCase_verifyLocationKeyFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!LocationKeyLengthWarning-TC_Services_Location-testCase_verifyLocationKeyFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationKeyFieldValidation(TC_Services_Location.java:709)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyLocationPeriodFieldValidation" time="104.88" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!LocationPeriodLimitWarning-TC_Services_Location-testCase_verifyLocationPeriodFieldValidation">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!LocationPeriodLimitWarning-TC_Services_Location-testCase_verifyLocationPeriodFieldValidation
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_Services.TC_Services_Location.testCase_verifyLocationPeriodFieldValidation(TC_Services_Location.java:767)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_verifyLocationSupportDisable" time="37.981" classname="com.xirrus.xms.TS_Array_Services.TC_Services_Location"/>
+</testsuite>

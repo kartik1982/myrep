@@ -1,0 +1,142 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Configure_Profile_Menu]" parallel="false">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Profile_Export(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Export">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_SyncArrays(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="testCase_C1"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Edit(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Edit">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_SetAOSVersion(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SetAOSVersion">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Default(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Default">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Select_Columns(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Select_Columns">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_CreateFromArray(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_CreateFromArray">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Add(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Add">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Delete(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Delete">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="TC_Profile_Copy(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_SyncArrays">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.xirrus.xms.TS_Configure_Profile_Menu.TC_Profile_Copy">
+        <methods>
+          <include name="testCase_C1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

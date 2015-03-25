@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName" tests="6" failures="1" timestamp="25 Mar 2015 15:14:24 GMT" time="177.312" errors="0">
+  <testcase name="testCase_VerifydefaultHostnamevalueNotEmpty" time="8.505" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName"/>
+  <testcase name="testCase_verifyHostnameNotacceptemptyvalue" time="15.518" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName"/>
+  <testcase name="testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname" time="25.703" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName">
+    <failure type="java.lang.AssertionError" message="FAIL- Verification Failed!!!HostnameNotValidWarning-TC_GeneralSett_HostName-testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname">
+      <![CDATA[java.lang.AssertionError: FAIL- Verification Failed!!!HostnameNotValidWarning-TC_GeneralSett_HostName-testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname
+	at com.xirrus.xms.locallib.LocalLib.verifyStringequals(LocalLib.java:128)
+	at com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName.testCase_verifyHostnameNotacceptvalueOtherThanIPOrHostname(TC_GeneralSett_HostName.java:196)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testCase_VerifyHostnamesetIPAddressValue" time="41.274" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName"/>
+  <testcase name="testCase_VerifyHostnamesetValidNameValue" time="41.447" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName"/>
+  <testcase name="testCase_VerifyHostnameEditValue" time="41.751" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_HostName"/>
+</testsuite>

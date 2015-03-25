@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_IAPs]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_IAPs_RoamingAssist(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_IAPs.TC_IAPs_RoamingAssist">
+        <methods>
+          <include name="testCase_VerifyEnableRoamingAssistDisable"/>
+          <include name="testCase_VerifyBackoffPeriodDefaultValue"/>
+          <include name="testCase_VerifyDevicesUnselectAll"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_VerifyRoamingThresholdFieldValidation"/>
+          <include name="testCase_VerifyBackoffPeriodSetValue"/>
+          <include name="testCase_VerifyMinimumDataRateFieldValidation"/>
+          <include name="testCase_VerifyEnableRoamingAssistDefaultValue"/>
+          <include name="testCase_VerifyEnableRoamingAssistEnable"/>
+          <include name="testCase_VerifyDevicesDefaultValue"/>
+          <include name="testCase_VerifyMinimumDataRateDefaultValue"/>
+          <include name="testCase_VerifyDevicesSelectAll"/>
+          <include name="testCase_VerifyRoamingThresholdDefaultValue"/>
+          <include name="testCase_VerifyRoamingThresholdSetValue"/>
+          <include name="testCase_VerifyDevicesSetValue"/>
+          <include name="testCase_VerifyMinimumDataRateSetValue"/>
+          <include name="testCase_VerifyBackoffPeriodFieldValidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_IAPs.TC_IAPs_RoamingAssist -->
+    </classes>
+  </test> <!-- TC_IAPs_RoamingAssist(failed) -->
+</suite> <!-- Failed suite [TS_Array_IAPs] -->

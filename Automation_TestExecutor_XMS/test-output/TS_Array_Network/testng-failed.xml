@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Network]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_Network_LLDP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_LLDP">
+        <methods>
+          <include name="testCase_verifyDefaultLLDPState"/>
+          <include name="testCase_verifyDisableLLDPState"/>
+          <include name="testCase_verifyEnableLLDPState"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Network.TC_Network_LLDP -->
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Network.TC_Network_DNS -->
+    </classes>
+  </test> <!-- TC_Network_LLDP(failed) -->
+  <test name="TC_Network_CDP(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Network.TC_Network_DNS -->
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_CDP">
+        <methods>
+          <include name="testCase_verifyCDPStateDisableValue"/>
+          <include name="testCase_verifyCDPStateEnableValue"/>
+          <include name="testCase_verifyCDPStateIntervalHoldTimeDefaultvalue"/>
+          <include name="testCase_verifyCDPIntervalHoldTimeEditValue"/>
+          <include name="testCase_verifyCDPIntervalHoldTimeFieldValidation"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Network.TC_Network_CDP -->
+    </classes>
+  </test> <!-- TC_Network_CDP(failed) -->
+  <test name="TC_Network_DNS(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_Network.TC_Network_DNS">
+        <methods>
+          <include name="testCase_VerifyDNSServer3SetValue"/>
+          <include name="testCase_VerifyDNSServer2SetValue"/>
+          <include name="testCase_VerifyDNSServer1SetValue"/>
+          <include name="testCase_VerifyDNSServer1FieldValidation"/>
+          <include name="testCase_VerifyDNSServer3FieldValidation"/>
+          <include name="testCase_VerifyDNSDomainFieldValidation"/>
+          <include name="testCase_VerifyUseDNSSettingsAssignedbyDHCPDefaultValue"/>
+          <include name="testCase_VerifyDNSServer2FieldValidation"/>
+          <include name="testCase_VerifyDNSDomainSetValue"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testCase_VerifyDNSHostnameDefaultValue"/>
+          <include name="testCase_VerifyUseDNSsettingsAssignedByDHCPEnable"/>
+          <include name="testCase_VerifyUseDNSSettingsAssignedByDHCPDisable"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_Network.TC_Network_DNS -->
+    </classes>
+  </test> <!-- TC_Network_DNS(failed) -->
+</suite> <!-- Failed suite [TS_Array_Network] -->

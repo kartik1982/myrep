@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact" tests="5" failures="0" timestamp="27 Jan 2015 23:08:11 GMT" time="135.535" errors="0">
+  <testcase name="testCase_VerifydefaultAdminContactvalue" time="7.525" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact"/>
+  <testcase name="testCase_VerifyAdminContactFieldvalidation" time="0.001" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact"/>
+  <testcase name="testCase_VerifyAdminContactSetValue" time="43.226" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact"/>
+  <testcase name="testCase_VerifyAdminContactEditValue" time="43.074" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact"/>
+  <testcase name="testCase_VerifyAdminContactEmptyValue" time="41.701" classname="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact"/>
+</testsuite>

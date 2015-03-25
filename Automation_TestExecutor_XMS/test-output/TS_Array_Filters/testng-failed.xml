@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TS_Array_Filters]">
+  <listeners>
+    <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TC_GeneralSett_Contact(failed)">
+    <classes>
+      <class name="com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact">
+        <methods>
+          <include name="testCase_VerifydefaultAdminContactvalue"/>
+          <include name="testCase_VerifyAdminContactSetValue"/>
+          <include name="testCase_VerifyAdminContactEditValue"/>
+          <include name="testCase_VerifyAdminContactFieldvalidation"/>
+          <include name="testCase_VerifyAdminContactEmptyValue"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.xirrus.xms.TS_Array_General.TC_GeneralSett_Contact -->
+    </classes>
+  </test> <!-- TC_GeneralSett_Contact(failed) -->
+</suite> <!-- Failed suite [TS_Array_Filters] -->

@@ -1,0 +1,9 @@
+
+<suite name="My suite">
+<listeners> <listener class-name="com.xirrus.xms.listener.TestsListenerAdapter"/> </listeners>
+  <suite-files>
+   <suite-file path="./TS_Configure_Profile_Menu.xml" />
+   <suite-file path="./TS_Profile_General.xml" />
+   <suite-file path="./TS_Profile_Network.xml" />
+  </suite-files>
+</suite>

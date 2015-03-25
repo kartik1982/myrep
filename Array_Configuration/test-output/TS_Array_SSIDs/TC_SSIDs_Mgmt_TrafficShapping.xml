@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ANasser-8470p" name="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping" tests="4" failures="0" timestamp="25 Mar 2015 18:03:58 GMT" time="0.008" errors="0">
+  <testcase name="testCase_VerifyDefaultSSIDGeneralSettings" time="0.0" classname="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping"/>
+  <testcase name="testCase_VerifyAddSSIDwithDefaultGeneralSettings" time="0.001" classname="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping"/>
+  <testcase name="testCase_VerifyAddSSIDwithcustomGeneralSettings" time="0.0" classname="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping"/>
+  <testcase name="testCase_VerifyEditSSIDGeneralSettings" time="0.0" classname="com.xirrus.xms.TS_Array_SSIDs.TC_SSIDs_Mgmt_TrafficShapping"/>
+</testsuite>

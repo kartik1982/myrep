@@ -1,0 +1,71 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_ArrayConfiguration">
+<test name="TC_ArrayConfig_Setup">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Setup" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_GeneralSettings">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_GeneralSettings" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Network_DNS">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_DNS" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Network_LLDP">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_LLDP" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Network_CDP">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Network_CDP" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_VLANs">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_VLANs" ></class>  
+    </classes>
+</test>
+
+<test name="TC_ArrayConfig_Services_NetFlow">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_NetFlow" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Services_WiFiTag">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_WiFiTag" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Services_Location">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_Location" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Services_DHCPServer">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Services_DHCPServer" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Security_AirWatch">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_AirWatch" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_Security_GlobalSettings_WPA">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_Security_GlobalSettings_WPA" ></class>  
+    </classes>
+</test>
+<test name="TC_ArrayConfig_IAPs_RoamingAssist">
+    <classes>
+        <class name="com.xirrus.xms.TS_ArrayConfiguration.TC_ArrayConfig_IAPs_RoamingAssist" ></class>  
+    </classes>
+</test>
+
+</suite>

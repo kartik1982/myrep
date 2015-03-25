@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_Array_IAPs">
+<test name="TC_IAPs_RoamingAssist">
+    <classes>
+        <class name="com.xirrus.xms.TS_Array_IAPs.TC_IAPs_RoamingAssist" ></class>  
+    </classes>
+</test>
+</suite>
+
